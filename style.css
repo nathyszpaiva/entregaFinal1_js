@@ -80,7 +80,7 @@ h1 {
     margin: 5px 0;
 }
 
-/* ======= ESTILO SOMENTE DO HISTÓRICO ======= */
+/* HISTÓRICO */
 
 /* Remove bolinhas da lista */
 #history-list {
@@ -112,4 +112,5 @@ h2{
     margin-bottom: 20px;
     font-size: 20px;
 }
+
 
