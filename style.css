@@ -97,11 +97,19 @@ h1 {
 /* Estilo dos links do histórico */
 #history-list a {
     text-decoration: none;
-    color: #0077cc;
+    color: #3e9cdf;
+    transition: color 0.3s;
     cursor: pointer;
 }
 
 /* Efeito ao passar o mouse */
 #history-list a:hover {
-    text-decoration: underline;
+    color: #005fcc;
 }
+
+h2{
+    color: #005fcc; 
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
