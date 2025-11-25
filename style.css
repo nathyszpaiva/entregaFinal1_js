@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    margin: 0;
+    padding-top: 50px;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+}
+
+h1 {
+    color: #cc0000; /* Vermelho Pokémon */
+    margin-bottom: 20px;
+}
+
+.search-container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+#pokemon-input {
+    flex-grow: 1;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#search-button {
+    padding: 10px 15px;
+    background-color: #3b4cca; /* Azul Pokémon */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+#search-button:hover {
+    background-color: #2a3c9e;
+}
+
+.pokemon-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #fff;
+    min-height: 150px; /* Para manter o layout estável */
+    text-align: left;
+}
+
+/* Estilos para o Pokémon */
+.pokemon-card h2 {
+    text-transform: capitalize;
+    color: #3b4cca;
+    margin-top: 0;
+}
+
+.pokemon-card img {
+    max-width: 100px;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+.pokemon-card p {
+    margin: 5px 0;
+}
+
+/* ======= ESTILO SOMENTE DO HISTÓRICO ======= */
+
+/* Remove bolinhas da lista */
+#history-list {
+    list-style: none;
+    margin-top: 10px;
+    padding: 0;
+}
+
+/* Espaço entre os itens */
+#history-list li {
+    margin: 5px 0;
+}
+
+/* Estilo dos links do histórico */
+#history-list a {
+    text-decoration: none;
+    color: #0077cc;
+    cursor: pointer;
+}
+
+/* Efeito ao passar o mouse */
+#history-list a:hover {
+    text-decoration: underline;
+}
